@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Employee</title>
+    <script src="https://kit.fontawesome.com/d9910aa335.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    
+        <header>
+            <div class="first_wrapper">
+                <div class="header_logo">
+                    <div class="candidates_label">
+                        <p>Лица</p> 
+                        <img src="candidates_lable.svg" alt="label"> 
+                        <p>Кандидаты</p>
+                    </div>
+                    <nav>
+                        <a href="#">Найти кандидата</a>
+                        <a href="#">Попасть в базу</a>
+                        <a href="#">О сервисе</a>
+                        <a href="#">Портал</a>
+                    </nav>
+                </div>
+                <div class="header_search">
+                    <div class="main_search">
+                        <input type="text" name="text" class="search" placeholder="Поиск">
+                        <button class="search_button" type="submit"> <img src="search.svg" alt="Search"></button>
+                    </div>
+                </div>
+                <!-- <div>
+                <button class="search_mobile" type="submit"> <img src="search.svg" alt="Search"></button>
+                </div>  -->
+                <div class="dropdown">
+                    <div class="dropdown_img">
+                        <a href="#profile_popup" class="profile_name">Иннокентий</a>
+                        <a class="innokentii" href="#"><img src="icon.svg" alt="icon"></a> 
+                    </div>
+                    <div class="dropdown-content">
+                    <a href="#">Посмотреть профиль</a>
+                    <a href="#">Выйти</a>
+                    </div>
+                </div>
+                 <div class="navbar" id="navbar">
+                    
+                    <span class="hamburher-line"></span>
+                    <span class="hamburher-line"></span>
+                    <span class="hamburher-line"></span>
+                    
+                </div>
+            </div> 
+        </header>
+
+        <div id="profile_popup" class="profile_popup">
+            <div class="profile_popup_body">
+                <div class="profile_popup_content">
+                    <div class="profile_popup_content_logo">
+                        <div class="candidates_label1">
+                            <p>Лица</p> 
+                            <img src="candidates_lable.svg" alt="label"> 
+                            <p>Кандидаты</p>
+                        </div>
+                    </div>
+                    <p class="profile_popup_content_title">Получить доступ к базе <br> проверенных кандидатов</p>
+                    <p class="profile_popup_content_email_title">Email</p>
+                    <form class="profile_popup_content_email">
+                        <input type="email" name="email" >
+                    </form>
+                    <p class="profile_popup_content_password_title">Пароль</p>
+                    <form class="profile_popup_content_password">
+                        <input type="password" >
+                    </form>
+                    <p class="profile_popup_content_forgot_password">Забыли пароль?</p>
+                    <div class="profile_popup_buttons">
+                        <a href="#">Войти</a>
+                        <a href="#registration_popup">Зарегистрироваться</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <div id="registration_popup" class="registration_popup">
+            <div class="registration_popup_body">
+                <div class="registration_popup_content">
+                    <div class="registration_popup_content_logo">
+                        <div class="candidates_label1">
+                            <p>Лица</p> 
+                            <img src="candidates_lable.svg" alt="label"> 
+                            <p>Кандидаты</p>
+                        </div>
+                    </div>
+                    <p class="registration_popup_content_title">Регистрация</p>
+                    <p class="registration_popup_content_name_title">Имя<sup>*</sup></p>
+                    <form class="registration_popup_content_name">
+                        <input class="reg_form" type="text" name="username" >
+                    </form>
+                    <p class="registration_popup_content_name_title">Email</p>
+                    <form class="registration_popup_content_name">
+                        <input class="reg_form" type="email" name="email" >
+                    </form>
+                    <p class="registration_popup_content_name_title">Пароль<sup>*</sup></p>
+                    <form class="registration_popup_content_name">
+                        <input class="reg_form" type="password" >
+                    </form>
+                    <p class="registration_popup_content_name_title">Повторите пароль</p>
+                    <form class="registration_popup_content_name">
+                        <input class="reg_form" type="password" >
+                    </form>
+                   
+                    <div class="registration_popup_button">
+                        <a href="#">Зарегистрироваться</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+        <section class="hr">
+            <hr class="line">
+        </section>
+        <section class="categories">
+            <div class="categories_main">
+                <a href="#">Маркетологи</a>
+                <a href="#">Backend-разработчики</a>
+                <a href="#">Дизайнеры</a>
+                <a href="#">Менеджеры по продажам</a>
+                <a href="#">Ещё</a>
+            </div>
+        </section>
+
+
+
+
+
+    <section class="subcategories">
+        <div class="subcategories_main">
+            <a href="#">Интернет-маркетинг</a>
+            <a href="#">Контент-марктетинг</a>
+            <a href="#">Перфоманс-маркетинг</a>
+            <a href="#">PR</a>
+        </div>
+    </section>
+
+
+
+   <section class="candidate_info">
+        <div class="main_info">
+            <div class="your_actions">
+                <p>Ваши действия</p>
+            </div>
+            <div class="candidate_main_card">
+                <img class="main_icon" src="Andrei.jpg" alt="Andrei">
+                <div class="candidate_main_card_content">
+                    <p class="candidate_main_card_title">Андрей Чухлебов</p>
+                    <div class="candidate_who">
+                        <p>31 год</p>
+                        <p>Интернет-маркетолог</p>
+                    </div>
+                    <div class="candidate_main_card_location">
+                        <img src="Location marker.svg" alt="location">
+                        <p >Пхукет</p>
+                    </div>
+                    <div class="candidate_main_card_salary">
+                        <p>Рассматривался на вакансию интернет-маркетолог. <br>
+                            Зарплатные ожидания: 000</p>
+                        <div class="candidate_main_card_number">
+                            <img src="Lock closed.svg" alt="key">
+                            <p>+7 (918) ...-..-..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="open_contacts">
+                    <p>full-time</p>
+                    <a href="#">Открыть контакты</a>
+                </div>
+            </div>
+            <div class="text_card_reason">
+                <p>Причина поиска работы </p>
+                <p>Почти полтора года, до мая 2022, кандидат работал в Альфа Банке ведущим специалистом <br> по автотестированию (аутстаф от вендора). В январе получил предложение от друзей <br> пожить пару месяцев на Пхукете (до этого он практически не уходил даже в отпуск), <br> договорился с работодателем о возможности удалённой работы, однако уже по факту <br> переезда такой формат в банке не одобрили, вендор не может предложить другой <br> хороший проект, и Андрей был вынужден уволиться. Сейчас находится на Пхукете, но там <br> его ничто не удерживает, потому рассматривает любые предложения.  </p>
+            </div>
+            <div class="text_card_all_info">
+                <p>Общая информация, почему именно этот кандидат </p>
+                <p>В сфере IT Андрей работает всю карьеру, начинал с администратора баз данных и Oracle- <br> разработчика, но последние 6 лет занимается тестированием. Имеет техническое <br> образование — прикладная информатика в экономике. В Альфа Банке работал <br>
+                    в продуктовой команде, был единственным тестировщиком, потому нёс ответственность <br> за качество продукта, за процессы тестирования внутри команды и т.д. Занимался <br>
+                    и ручным тестированием...</p>
+                <p class="red_dashed">Читать далее</p>
+            </div>
+            <div class="text_card_all_info">
+                <p>Опыт в тестировании</p>
+                <p>Виды используемых автотестов.</p>
+                <p class="wide">UI:</p>
+                <p> - 2 года писал end-2-end на аналоге selenide;<br>
+                    - 1,5 года писал end-2-end на bdd фреймворке Akita (3 слоя в проекте: корневая либа <br> акиты, либа с кастомными шагами, фича-файлы с тестами)...</p>
+                <p class="red_dashed">Читать далее</p>
+            </div>
+            <div class="text_card_all_info">
+                <p>Опыт работы с API и тестирования бэкенда</p>
+                <p class="experience">REST API начал тестировать руками в Infowatch. <br>
+                    На протяжении 2 лет в hh.ru также приходилось тестировать Rest. <br>
+                    В Альфа Банке 1 год тестировал руками трифт-апи, 1,5 года — soap и 0,5 года — Rest. <br> Инструменты: Postman, SoapUI.</p>
+            </div>
+        </div>
+
+        <div id="cooperation_popup" class="cooperation_popup">
+            <div class="cooperation_popup_body">
+                <div class="cooperation_popup_content">
+                    <div class="cooperation_popup_content_logo">
+                        <div class="candidates_label1">
+                            <p>Лица</p> 
+                            <img src="candidates_lable.svg" alt="label"> 
+                            <p>Кандидаты</p>
+                        </div>
+                    </div>
+                    <p class="cooperation_popup_content_title">Вы открыли контакты <br> кандидата – теперь вы сможете <br> с ним связаться и обсудить <br> сотрудничество</p>
+                   
+                    <div class="cooperation_popup_buttons">
+                        <a href="#">Понятно</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="sticky_block">
+            <div class="buttons">
+                <a href="#">Посмотреть резюме</a>
+                <a href="#cooperation_popup">Обсудить сотрудничество</a>
+                <a href="#">Найти похожего</a>
+            </div>
+            <div class="portfolio">
+                <p>Портфолио</p>
+                <p>Портфолио Андрея Чухлебова</p>
+            </div>
+            <div class="examples">
+                <p>Примеры</p>
+                <p>Пример юнит-экономики</p>
+                <p>Пример отчёта</p>
+            </div>
+            <div class="subscription_disabled">
+                <div class="subscription_disabled_content">
+                    <p class="subscription_disabled_title">Открыто контактов:</p>
+                    <div class="contacts">
+                        <p class="contacts_amount">5/<span>50</span></p>
+                        <p class="buy_contacts"> <span> Докупить контакты</span></p>
+                    </div>
+                </div>
+                <div class="subscription_disabled_content">
+                    <p class="subscription_disabled_title">Посмотрено кандидатов:</p>
+                    <div class="contacts">
+                        <p class="contacts_amount">10/<span>100</span></p>
+                        <p class="buy_contacts"><span>Скрыть из результатов</span>  <br>
+                            <span>уже просмотренных</span><br>
+                           <span>кандидатов</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="your_actions">
+            <p>Причина поиска работы </p>
+        </div>
+        <div class="your_actions">
+            <p>Общая информация, почему именно этот кандидат</p>
+        </div>
+        <div class="your_actions">
+            <p>Опыт в тестировании</p>
+        </div>
+        <div class="your_actions">
+            <p>Опыт работы с API и тестирования бэкенда</p>
+        </div>
+   </section>
+
+
+
+    
+<footer>
+    <div class="footer_wrapper">
+        <div class="links_localization">
+            <div class="footer_column">
+                <p>ЛИЦА.КАНДИДАТЫ</p>
+                <a href="#">Найти кандидата</a>
+                <a href="#">Попасть в базу</a>
+                <a href="#">О сервисе</a>
+            </div>
+            <div class="footer_column">
+                <p>ЛИЦА.РАБОТА</p>
+                <a href="#">Рекрутинг</a>
+                <a href="#">Конструктор подбора</a>
+                <a href="#">Аналитика подбора</a>
+            </div>
+            <div class="footer_column">
+                <p>O ПОРТАЛЕ</p>
+                <a href="#">Поддержка</a>
+                <a href="#">Обновления</a>
+                <a href="#">Контакты</a>
+            </div>
+        </div>
+        <div>
+            <hr class="line">
+            <div class="social_links">
+                <p>ООО «ЛИЦА»</p>
+                <div class="copyright">
+                    <a href="#">Реквизиты</a>
+                    <a href="#">Правовая информация</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
